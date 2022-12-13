@@ -57,7 +57,7 @@ def main():
         OUT_DB["Адрес"][i] = address
         OUT_DB["смещение"][i] = final_step
 
-    OUT_DB.to_excel("../ready.xlsx")
+    OUT_DB.to_excel("../decoded.xlsx")
 
 
 if __name__ == '__main__':
